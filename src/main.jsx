@@ -1,7 +1,6 @@
 import React, { Suspense, lazy } from 'react'
 import ReactDOM from 'react-dom/client'
 // import App from './App.jsx'
-import $ from 'jquery';
 
 
 import "./assets/css/main.css"
@@ -33,11 +32,13 @@ import "./assets/js/main.js"
 
 
 import App from './App';
+import { BrowserRouter } from 'react-router-dom'
 
 const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
 root.render(
-
-  <App/>
+<BrowserRouter>
+<App/></BrowserRouter>
+  
 
 )

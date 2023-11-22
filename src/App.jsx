@@ -21,8 +21,8 @@ const App = () => {
   return (
     
   <Suspense fallback={null}> 
-  <Home/>
-  {/* <Appcontent/> */}
+  {/* <Home/> */}
+  <Appcontent/>
   {/* // <Router/>
   <Home/> */}
    </Suspense>
