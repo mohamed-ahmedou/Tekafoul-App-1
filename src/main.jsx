@@ -1,12 +1,9 @@
 import React, { Suspense, lazy } from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+// import App from './App.jsx'
 import $ from 'jquery';
 
-// import WOW from 'wow.js';
-// import './index.css'
-// const wow = new WOW();
-// wow.init();
+
 import "./assets/css/main.css"
 import "./assets/css/flaticon.css"
 

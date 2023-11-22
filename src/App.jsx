@@ -4,7 +4,7 @@ import NotFound from './views/NotFound'
 import Router from './router/Router'
 import { Navigate, Route, Routes } from 'react-router'
 import Test from './views/Test'
-// import './app.css'
+import './app.css'
 import { BrowserRouter } from 'react-router-dom'
 function Appcontent (){
   return (
