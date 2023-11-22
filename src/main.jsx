@@ -40,7 +40,7 @@ import WOW from 'wow.js';
 import Test from './views/Test.jsx';
 import SpinnerComponent from './views/spinner.jsx';
 import Home from './views/Home.jsx';
-import { BrowserRouter } from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 // const wow = new WOW();
 // wow.init();
