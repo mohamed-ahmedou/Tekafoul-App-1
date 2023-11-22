@@ -41,19 +41,14 @@ import Test from './views/Test.jsx';
 import SpinnerComponent from './views/spinner.jsx';
 import Home from './views/Home.jsx';
 import { BrowserRouter } from 'react-router-dom';
+import App from './App';
 // const wow = new WOW();
 // wow.init();
 const LazyApp = lazy(() => import("./App"));
 const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
 root.render(
-<BrowserRouter>
-  <Suspense fallback={<SpinnerComponent/>}>
-    {/* <LazyApp />  */}
-<Home/>
-    </Suspense>
-    </BrowserRouter>
-  
 
+  <App/>
 
 )
