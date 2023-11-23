@@ -4,7 +4,7 @@ import mam_01 from '../assets/images/404/man_01.png'
 import man_02 from "../assets/images/404/man_02.png"
 import { Link, useNavigate } from 'react-router-dom'
 import { Button } from 'reactstrap'
-import '../index.css'
+
 const NotFound = () => {
     const navigate = useNavigate()
     const go_home = () => {

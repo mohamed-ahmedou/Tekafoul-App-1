@@ -1,10 +1,6 @@
-import React, { useEffect } from 'react'
-// import $ from 'jquery';
-import 'animate.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
-// import "../assets/js/bootstrap.min.js"
-// import '../index.css'
+import React from 'react'
+
+// import 'animate.css';
 
 import noulogo from '../assets/images/logo/noulogo.png'
 import dotbig from '../assets/images/banner/dot-big.png'
@@ -19,12 +15,10 @@ import pro3 from  "../assets/images/feature/pro3.png"
 import pro4 from "../assets/images/feature/pro4.png"
 import banner1 from "../assets/images/banner/banner-bg-1.jpg"
 import footer from "../assets/images/footer/footer-bg.jpg"
-import Ana from './3ana';
+
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Card, Badge } from 'reactstrap'
 import { useState } from 'react'
-// useEffect(()=>{
-//     return import '../index.css'
-// }, [])
+
 const Home = () => {
 
   const [centeredModal, setCenteredModal] = useState(false)
@@ -82,19 +76,19 @@ const Home = () => {
             😊   شرطان فقط لتنضم إلى عائلة التكافل 
             </h4>
             <center>
-            <card className="card" style={{textAlign:'center', width:'300px', marginBottom:'20px'}}>
+            <Card className="card" style={{textAlign:'center', width:'300px', marginBottom:'20px'}}>
                  
                  <Badge color="navy" style={{color:'white', fontWeight:'40px', backgroundColor:'navy'}} pill>
                  1
     </Badge>
     طيباوي الجنسية
-                 </card>
-            <card className="card" style={{textAlign:'center', width:'300px'}}> 
+                 </Card>
+            <Card className="card" style={{textAlign:'center', width:'300px'}}> 
             <Badge color="navy" style={{color:'white', fontWeight:'40px', backgroundColor:'navy'}} pill>
       2
     </Badge>
     الإلتزام بمبلغ شهري على قدر الإستطاعة
-            </card>
+            </Card>
             </center>
             <center style={{marginTop:'18px'}}> 
             إذا توفرت فيك الشروط فلا تتأخر في التواصل معنا و أهلا و مرحبا بك بين إخوتك و أصدقائك و أبناء عمومتك        
@@ -284,8 +278,8 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="feature-content">
-                                    <h4 className="title">  الإلتزام الشهري </h4>
-                                    <p>
+                                    <h4 className="title" style={{color:'navy'}}>  الإلتزام الشهري </h4>
+                                    <p style={{color:'navy'}}>
                                     قم بالإنضمام إلى عائلتنا الكبيرة عائلة التكافل الإجتماعي و التزم بمبلغ شهري للكيص
                                       </p>
                                 </div>
@@ -354,19 +348,19 @@ const Home = () => {
             😊   شرطان فقط لتنضم إلى عائلة التكافل 
             </h4>
             <center>
-            <card className="card" style={{textAlign:'center', width:'300px', marginBottom:'20px'}}>
+            <Card className="card" style={{textAlign:'center', width:'300px', marginBottom:'20px'}}>
                  
                  <Badge color="navy" style={{color:'white', fontWeight:'40px', backgroundColor:'navy'}} pill>
                  1
     </Badge>
     طيباوي الجنسية
-                 </card>
-            <card className="card" style={{textAlign:'center', width:'300px'}}> 
+                 </Card>
+            <Card className="card" style={{textAlign:'center', width:'300px'}}> 
             <Badge color="navy" style={{color:'white', fontWeight:'40px', backgroundColor:'navy'}} pill>
       2
     </Badge>
     الإلتزام بمبلغ شهري على قدر الإستطاعة
-            </card>
+            </Card>
             </center>
             <center style={{marginTop:'18px'}}> 
             إذا توفرت فيك الشروط فلا تتأخر في التواصل معنا و أهلا و مرحبا بك بين إخوتك و أصدقائك و أبناء عمومتك        

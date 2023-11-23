@@ -31,7 +31,11 @@ import "./assets/js/paroller.js"
 import "./assets/js/main.js"
 
 
+
+
+
 import App from './App';
+
 import { BrowserRouter } from 'react-router-dom'
 
 const container = document.getElementById("root");
