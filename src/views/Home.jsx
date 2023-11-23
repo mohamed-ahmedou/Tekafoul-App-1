@@ -18,6 +18,7 @@ import footer from "../assets/images/footer/footer-bg.jpg"
 
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Card, Badge } from 'reactstrap'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
 
@@ -129,19 +130,20 @@ const Home = () => {
             <h1>  يمكنكم الإتصال    </h1>
             </center>
             <center>
-            <p> 
+           
             <div>
-
-      
+            {/* <p>  */}
       
       <a  href={whatsappLink}  style={{marginRight:'40px', cursor:'pointer', textDecoration:'none', color:'havy'}}>
-        <h1>
+        
             <Card className='card'>
+            <h1>
             <i className="fab fa-whatsapp"></i>
                 
          الواتساب
-         </Card>
          </h1>
+         </Card>
+        
       </a>
       <a href={fbLikn}  style={{cursor:'pointer', textDecoration:'none', color:'havy'}}>
         <h1>
@@ -152,9 +154,10 @@ const Home = () => {
          </Card>
          </h1>
       </a>
+      {/* </p> */}
     </div>
            
- </p>
+
             </center>
           
 
@@ -177,13 +180,15 @@ const Home = () => {
                         <span></span>
                     </div>
                     <div className="header-right">
-                        <select className="select-bar">
+                        {/* <select className="select-bar">
                             <option value="en">En</option>
                             <option value="Bn">Bn</option>
                             <option value="pk">Pk</option>
                             <option value="Fr">Fr</option>
-                        </select>
-                        <a href="#0" className="header-button d-none d-sm-inline-block">إبدأ</a>
+                        </select> */}
+                        
+                        <a href='https://nextel.vercel.app'  className="header-button d-none d-sm-inline-block">إبدأ</a>
+                      
                     </div>
                 </div>
             </div>
