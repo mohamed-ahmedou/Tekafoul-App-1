@@ -36,14 +36,14 @@ const Home = () => {
         
     <div className="reverse-gear">
        
-        <div className="preloader">
+        {/* <div className="preloader">
             <div className="preloader-inner">
                 <div className="preloader-icon">
                     <span></span>
                     <span></span>
                 </div>
             </div>
-        </div>
+        </div> */}
         <a href="#0" className="scrollToTop"><i className="fas fa-angle-up"></i></a>
         <div className="overlay"></div>
 
@@ -135,17 +135,17 @@ const Home = () => {
             {/* <p>  */}
       
       <a  href={whatsappLink}  style={{marginRight:'40px', cursor:'pointer', textDecoration:'none', color:'havy'}}>
-        
-            <Card className='card'>
-            <h1>
+      <h1>
+        <Card className='card'>
+           
             <i className="fab fa-whatsapp"></i>
                 
          الواتساب
-         </h1>
+       
          </Card>
-        
+         </h1>
       </a>
-      <a href={fbLikn}  style={{cursor:'pointer', textDecoration:'none', color:'havy'}}>
+      <a href={fbLikn}  style={{cursor:'pointer', marginTop:'20px',textDecoration:'none', color:'havy'}}>
         <h1>
             <Card className='card'>
             <i className="fab fa-facebook"></i>
@@ -154,7 +154,7 @@ const Home = () => {
          </Card>
          </h1>
       </a>
-      {/* </p> */}
+
     </div>
            
 
