@@ -12,14 +12,14 @@ const NotFound = () => {
     }
   return (
     <>
-    <div className="preloader">
+    {/* <div className="preloader">
         <div className="preloader-inner">
             <div className="preloader-icon">
                 <span></span>
                 <span></span>
             </div>
         </div>
-    </div>
+    </div> */}
     <div className="error-section bg_img" data-background={img404}>
         <div className="container">
             <div className="man1">

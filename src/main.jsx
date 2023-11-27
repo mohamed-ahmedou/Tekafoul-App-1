@@ -34,7 +34,8 @@ import "./assets/css/owl.min.css"
 
 
 
-import App from './App';
+// import App from './App';
+const LazyApp = lazy(() => import("./App"))
 
 import { BrowserRouter } from 'react-router-dom'
 
@@ -42,8 +43,12 @@ const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
 root.render(
   <BrowserRouter>
-<App/>
+  <Suspense> 
+{/* <App/> */}
+<LazyApp/>
+  </Suspense>
   </BrowserRouter>
+
   
 )
 
