@@ -16,19 +16,19 @@ import "./assets/css/nice-select.css"
 import "./assets/css/owl.min.css"
 
 // js 
-import "./assets/js/jquery-3.3.1.min.js"
-import "./assets/js/jquery-ui.min.js"
-import "./assets/js/modernizr-3.6.0.min.js"
-import "./assets/js/plugins.js"
-import "./assets/js/bootstrap.min.js"
-import "./assets/js/magnific-popup.min.js"
+// import "./assets/js/jquery-3.3.1.min.js"
+// import "./assets/js/jquery-ui.min.js"
+// import "./assets/js/modernizr-3.6.0.min.js" //
+// import "./assets/js/plugins.js"
+// import "./assets/js/bootstrap.min.js"
+// import "./assets/js/magnific-popup.min.js"
 // import "./assets/js/wow.min.js"
-import "./assets/js/waypoints.js"
-import "./assets/js/nice-select.js"
-import "./assets/js/owl.min.js"
-import "./assets/js/counterup.min.js"
-import "./assets/js/paroller.js"
-import "./assets/js/main.js"
+// import "./assets/js/waypoints.js"
+// import "./assets/js/nice-select.js"
+// import "./assets/js/owl.min.js"
+// import "./assets/js/counterup.min.js"
+// import "./assets/js/paroller.js"
+// import "./assets/js/main.js"
 
 
 
